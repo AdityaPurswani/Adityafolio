@@ -20,15 +20,29 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import opencv from "./tech/opencv.png";
+import mysql from "./tech/mysql.png";
+import linux from "./tech/linux.png";
+import numpy from "./tech/numpy.png";
+import firebase from './tech/firebase.png';
+import java from './tech/java.png';
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import rubrik from "./company/rubrik.png";
+import primark from "./company/primark.png";
+
+import uon from "./colleges/uon.png";
+import nhce from "./colleges/nhce.png";
 
 import carrent from "./carrent.png";
+import gesture from "./gesture.jpeg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import nft from './nft.jpeg';
 
 export {
   logo,
@@ -50,13 +64,26 @@ export {
   reactjs,
   redux,
   tailwind,
+  opencv,
   typescript,
   threejs,
+  linux,
   meta,
+  python,
   shopify,
   starbucks,
+  numpy,
+  java,
+  firebase,
+  mysql,
+  rubrik,
+  primark,
   tesla,
   carrent,
   jobit,
   tripguide,
+  nhce,
+  uon,
+  gesture,
+  nft
 };

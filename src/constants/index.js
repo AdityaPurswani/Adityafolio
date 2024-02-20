@@ -17,12 +17,25 @@ import {
     docker,
     meta,
     starbucks,
+    gesture,
+    numpy,
+    java,
+    firebase,
+    linux,
+    rubrik,
+    python,
+    opencv,
+    mysql,
+    primark,
     tesla,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    nhce,
+    uon,
+    nft,
   } from "../assets";
   
   export const navLinks = [
@@ -42,20 +55,24 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Machine Learning Enthusiast",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Web Development",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Learning Deep Learning Techniques",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Python Developer",
       icon: creator,
+    },
+    {
+      title: "Learning AR/VR",
+      icon: mobile,
     },
   ];
   
@@ -73,102 +90,102 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Python",
+      icon: python,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "opencv",
+      icon: opencv,
     },
     {
-      name: "docker",
-      icon: docker,
+      name:"mysql",
+      icon: mysql,
+    },
+    {
+      name: 'mongodb',
+      icon: mongodb,
+    },
+    {
+      name: 'linux',
+      icon: linux,
+    },
+    {
+      name: 'numpy',
+      icon: numpy,
+    },
+    {
+      name: 'firebase',
+      icon: firebase,
+    },
+    {
+      name: 'java',
+      icon: java,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Customer Success Engineering Intern",
+      company_name: "Rubrik",
+      icon: rubrik,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Feb 2023 - Aug 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked on Rubrik CDM cluster versions: 5.x, 6.x, 7.x and 8.x",
+        "Primarily working on Cluster Ops issues including Cluster Down, Node down, etc scenarios on a daily basis.",
+        "Log analysis and root cause finding for every Node/Cluster Down related issues in order mitigate them properly and permanently so that customer doesn't face the same issue again.",
+        "Working on all hardware issues related to a Rubrik brik and managing the pre and post replacement procedures including, reaching out to customer for replacement, raising the shipping request, assisting in hardware installation/replacement and performing the post replacement steps.",
+        "Experience in handling Rubrik CDM upgrades via CLI, Node addition/removal/decommission, performing all the logical replacements post physical replacements and other cluster operation tasks."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Retail Assistant",
+      company_name: "Primark",
+      icon: primark,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Nov 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Maintaining and helping customers finding things they need",
+        "Serving the customers at tills and helping them with any queries they might have",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
   ];
   
+  const educations = [
+    {
+      title: "MSc. Computer Science",
+      company_name: "University of Nottingham",
+      icon: uon,
+      iconBg: "#383E56",
+      date: "September 2023 - August 2025",
+      points: [
+        "Modules - Machine Learning, Handling Uncertainties using Fuzzy sets and systems, Advanced Computer Networks, Big Data, Mixed Reality, Research Methods"
+      ],
+    },
+    {
+      title: "BE Information Science",
+      company_name: "University of Nottingham",
+      icon: nhce,
+      iconBg: "#E6DEDD",
+      date: "July 2019 - May 2023",
+      points: [
+        "Grade: 9.62 CGPA",
+        "Activities and societies: VMware Society and Computer Society of India",
+        "As a Bachelor of Engineering student in the niche of Information Science. I learned a lot of technologies while my bachelor's like fundamentals of programming languages, Machine Learning, Web Development, Mobile Development, Data Science using Python, and a lot more. During this phase, I was able to test out my skills as by making a lot of projects mostly related to Computer Vision, Machine Learning.",
+        "Skills: SQL · Computer Networking · Problem Solving · Python (Programming Language) · Machine Learning · Machine Learning Algorithms"
+      ],
+    },
+  ]
+
   const testimonials = [
     {
       testimonial:
@@ -198,45 +215,57 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Cursor Controller",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An app created with Python, OpenCV, and Numpy in which a user can control his/her mouse using his/her fingers or hand gestures and can perform certain operations. OpenCV to create masks and capture the video input.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "opencv",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "graham scan",
           color: "pink-text-gradient",
         },
+        {
+          name: "pyautoGUI",
+          color: "blue-text-gradient",
+        }
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: gesture,
+      source_code_link: "https://github.com/AdityaPurswani/Cursor-Controller",
     },
     {
-      name: "Job IT",
+      name: "NFT Club - An NFT Marketplace",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
-          name: "react",
+          name: "solidity",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "reactjs",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "css",
           color: "pink-text-gradient",
         },
+        {
+          name: "metamask",
+          color: "green-text-gradient",
+        },
+        {
+          name: "smart contract",
+          color: "blue-text-gradient",
+        }
       ],
-      image: jobit,
+      image: nft,
       source_code_link: "https://github.com/",
     },
     {
@@ -262,4 +291,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, educations};
