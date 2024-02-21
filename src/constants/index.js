@@ -5,19 +5,21 @@ import {
     web,
     javascript,
     typescript,
+    gesture,
     html,
     css,
     reactjs,
     redux,
     tailwind,
     nodejs,
+    bc,
     mongodb,
     git,
     figma,
     docker,
     meta,
     starbucks,
-    gesture,
+    emotions,
     numpy,
     java,
     firebase,
@@ -33,7 +35,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    fuzzy,
     nhce,
+    adityafolio,
     uon,
     nft,
   } from "../assets";
@@ -168,12 +172,13 @@ import {
       iconBg: "#383E56",
       date: "September 2023 - August 2025",
       points: [
-        "Modules - Machine Learning, Handling Uncertainties using Fuzzy sets and systems, Advanced Computer Networks, Big Data, Mixed Reality, Research Methods"
+        "Grade: 74.33%",
+        "Modules - Machine Learning, Handling Uncertainties using Fuzzy sets and systems, Advanced Computer Networks, Big Data, Mixed Reality, Research Methods",
       ],
     },
     {
       title: "BE Information Science",
-      company_name: "University of Nottingham",
+      company_name: "New Horizon College of Engineering",
       icon: nhce,
       iconBg: "#E6DEDD",
       date: "July 2019 - May 2023",
@@ -269,26 +274,90 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Predicting Breast Cancer using Clinical, MRI Data",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Developed models to predict PCR and RFS levels in patients with breast cancer based on clinical and MRI data containing 117 features. Used data preprocessing techniques such as scaling along with SMOTE to balance the classes and feature selection to reduce dimensions.",
       tags: [
         {
-          name: "nextjs",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "ml algos",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "jupyter notebook",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: bc,
+      source_code_link: "https://github.com/AdityaPurswani/Predicting-Breast-Cancer-by-Integrating-Clinical-and-MRI-Data-via-Machine-Learning",
+    },
+    {
+      name: "Fuzzy-System-to-Assist-Doctors",
+      description:
+        "Developed fuzzy inference models which takes patients age, body temperature and headache as constraints and helps doctors predict the severity of the case taking the uncertainity of medical devices and people into account.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "fuzzy logic",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mamdani inference",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "tsk inference",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: fuzzy,
+      source_code_link: "https://github.com/AdityaPurswani/COMP4033---Fuzzy-System-to-Assist-Doctors",
+    },
+    {
+      name: "Adityafolio 😎",
+      description:
+        "You are currently looking at the website 😁. An interactive and playful website showcasing my skills, publications, education and experiences created in an attempt to enter the web 3 spectrum and learn it. Apart from it I got to learn tailwind css from this project.",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "web3",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "adityafolio",
+          color: "green-text-gradient",
+        },
+      ],
+      image: adityafolio,
+      source_code_link: "https://github.com/AdityaPurswani/Adityafolio",
     },
   ];
-  
-  export { services, technologies, experiences, testimonials, projects, educations};
+
+  const publications = [
+    {
+      name: "Generalizing Machine Emotions",
+      image: emotions,
+      paper_link: 'https://ijsrset.com/IJSRSET12291144',
+      description: "The goal of this research is to see if there is a way to create a universal machine that can represent emotion in any object. If effective, it might be utilized for a variety of purposes, including the development of EI software and the creation of situations involving EI robots by humans. It's not about being a soft when it comes to emotional intelligence!"
+    },
+    {
+      name: "NFT Club - An NFT Marketplace",
+      image: nft,
+      paper_link: 'https://ieeexplore.ieee.org/document/10112704',
+      description: 'NFT Club - An attempt to generalize a concept that is pretty known to the public but needs to be understood clearly. NFT or Non-Fungible Tokens are digital assets that are traded on platforms made on the blockchain with the help of cryptocurrency. Our effort in this project is to create an NFT trading platform that is hassle-free for the normal public to understand and operate on.',
+    },
+  ]
+  export { services, technologies, experiences, testimonials, projects, educations, publications};

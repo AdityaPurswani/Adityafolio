@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import paper from "./paper.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -43,6 +44,11 @@ import gesture from "./gesture.jpeg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import nft from './nft.jpeg';
+import bc from './bc.jpeg';
+import fuzzy from './fuzzy.png';
+import adityafolio from './adityafolio.png'
+
+import emotions from './papers/emotions.jpeg'
 
 export {
   logo,
@@ -85,5 +91,10 @@ export {
   nhce,
   uon,
   gesture,
-  nft
+  fuzzy,
+  adityafolio,
+  nft,
+  bc,
+  paper,
+  emotions,
 };
