@@ -322,7 +322,7 @@ import {
     {
       name: "Adityafolio 😎",
       description:
-        "You are currently looking at the website 😁. An interactive and playful website showcasing my skills, publications, education and experiences created in an attempt to enter the web 3 spectrum and learn it. Apart from it I got to learn tailwind css from this project.",
+        "You are currently looking at this website 😁. An interactive and playful website showcasing my skills, publications, education and experiences created in an attempt to enter the web 3 spectrum and learn it. Apart from it I got to learn tailwind css from this project.",
       tags: [
         {
           name: "reactjs",
