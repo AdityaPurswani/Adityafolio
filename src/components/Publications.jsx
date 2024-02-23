@@ -15,7 +15,7 @@ const PublicationCard = ({index, name , image, paper_link, description}) => {
           scale:1,
           speed:450
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[450px] w-full'>
+        className='bg-tertiary p-5 rounded-2xl xs:w-[450px] w-full'>
           <div className="relative w-full h-[230px]">
             <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl"/>
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover">

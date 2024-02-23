@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className={`${styles.paddingX} w-full flex items-right py-5 bottom-0 bg-primary`}>
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
-        <p className='text-[18px] text-white-100 font-semibold'>Copyright. 2024</p>
+        <p className='text-[18px] text-white-100 font-semibold'></p>
         <ul className='list-none hidden sm:flex flex-row gap-5 items-right'>
         {socials.map((social) => (
             <li
