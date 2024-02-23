@@ -75,7 +75,7 @@ const OtherProjectCard = ({index, name , description, projecttags, image, source
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div>
       <p className={styles.sectionSubText}>My Works</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
       </motion.div>
@@ -94,7 +94,7 @@ const Works = () => {
         ))}
       </div>
 
-      <motion.div variants={textVariant()} className="mt-10">
+      <motion.div>
       <p className={styles.sectionSubText}>Some more Projects</p>
       </motion.div>
       <div className="mt-5 flex flex-wrap gap-10 sm:justify-center sm:items-center">
