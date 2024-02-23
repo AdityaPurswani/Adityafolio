@@ -14,7 +14,7 @@ const ProjectCard = ({index, name , description, tags, image, source_code_link})
         scale:1,
         speed:450
       }}
-      className='bg-black-100 p-5 rounded-2xl sm:w-[350px] w-full'>
+      className='bg-black-100 p-5 pt-1 rounded-2xl sm:w-[350px] w-full'>
         <div className="relative w-full h-[230px]">
           <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl"/>
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -97,7 +97,7 @@ const Works = () => {
       <motion.div>
       <p className={styles.sectionSubText}>Some more Projects</p>
       </motion.div>
-      <div className="mt-5 flex flex-wrap gap-10 sm:justify-center sm:items-center">
+      <div className="mt-10 flex flex-wrap gap-10 sm:justify-center sm:items-center">
         {otherprojects.map((otherproject, index) => (
           <OtherProjectCard key={`otherproject-${index}`} {...otherproject} index={index}/>
         ))}
