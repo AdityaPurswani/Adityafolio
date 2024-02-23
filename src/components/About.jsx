@@ -29,7 +29,7 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary2 text-[17px] w-full leading-[30px]'>
-      I am a passionate and hardworking student with a strong interest in Machine Learning and artificial intelligence. I am currently pursuing a degree in Information Science at New Horizon College of Engineering and have a strong foundation in mathematics and computer science, and eager to learn more about the latest advances in AI.
+      I am a passionate and hardworking student with a strong interest in Machine Learning and artificial intelligence. I am currently pursuing a master's degree in Computer Science at University of Nottingham and have a strong foundation in mathematics and computer science, and eager to learn more about the latest advances in AI.
       I am particularly interested in the applications of AI to real-world problems and believe that AI has the potential to make a positive impact on the world, and am excited to be a part of the field.
       I am a hard worker and always eager to learn new things. I am confident that I have the skills and passion to be successful in a career in AI.
       </motion.p>

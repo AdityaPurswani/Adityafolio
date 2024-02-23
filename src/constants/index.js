@@ -5,6 +5,7 @@ import {
     web,
     javascript,
     typescript,
+    acn,
     gesture,
     linkedin,
     html,
@@ -370,6 +371,31 @@ import {
       image: adityafolio,
       source_code_link: "https://github.com/AdityaPurswani/Adityafolio",
     },
+    {
+      name: "Ad Hoc Network Routing Protocols in Landslide Scenario",
+      description:
+        "Build this project as a part of my Advanced Computer Networks module where we needed to compare the performance of different routing protocols in the chosen scenario (landslide).",
+      tags: [
+        {
+          name: "one simulator",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "java",
+          color: "green-text-gradient",
+        },
+        {
+          name: "acn",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "comp4032",
+          color: "green-text-gradient",
+        },
+      ],
+      image: acn,
+      source_code_link: "https://github.com/AdityaPurswani/COMP4032-Comparative-Study-of-Ad-Hoc-Network-Routing-Protocols-in-Landslide-Scenarios-Using-ONE",
+    },
   ];
 
   const publications = [
@@ -386,4 +412,118 @@ import {
       description: 'NFT Club - An attempt to generalize a concept that is pretty known to the public but needs to be understood clearly. NFT or Non-Fungible Tokens are digital assets that are traded on platforms made on the blockchain with the help of cryptocurrency. Our effort in this project is to create an NFT trading platform that is hassle-free for the normal public to understand and operate on.',
     },
   ]
-  export { services, technologies, experiences, testimonials, projects, educations, publications, socials};
+
+  const otherprojects = [
+    {
+      name: "Real Time Object Detection",
+      projecttags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tensorflowjs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "cocossd",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "html",
+          color: "green-text-gradient",
+        },
+      ],
+      source_code_link: "https://github.com/AdityaPurswani/RealTimeObjectDetection",
+    },
+    {
+      name: "Peach Web-App (Social-Media)",
+      projecttags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "html",
+          color: "green-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+      ],
+      source_code_link: "https://github.com/AdityaPurswani?tab=repositories",
+    },
+    {
+      name: "Set Your Goals (Web App)",
+      projecttags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "html",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "java web tokens",
+          color: "green-text-gradient",
+        },
+      ],
+      source_code_link: "https://github.com/AdityaPurswani/Set-Your-Goals-frontend",
+    },
+    {
+      name: "Textify Text-Editor",
+      projecttags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tkinter",
+          color: "green-text-gradient",
+        },
+        {
+          name: "pyttsx3",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "speech recognition",
+          color: "green-text-gradient",
+        },
+        {
+          name: "destop-app",
+          color: "blue-text-gradient"
+        }
+      ],
+      source_code_link: "https://github.com/AdityaPurswani/Text-Editor-Textify",
+    },
+    {
+      name: "Harry Potter Cloak",
+      projecttags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "opencv",
+          color: "green-text-gradient",
+        },
+        {
+          name: "learning and development",
+          color: "pink-text-gradient",
+        },
+      ],
+      source_code_link: "https://github.com/AdityaPurswani/HarryPotter_Cloak",
+    },
+
+  ]
+  export { services, technologies, experiences, testimonials, projects, educations, publications, socials, otherprojects};

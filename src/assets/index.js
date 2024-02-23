@@ -51,6 +51,7 @@ import nft from './nft.jpeg';
 import bc from './bc.jpeg';
 import fuzzy from './fuzzy.png';
 import adityafolio from './adityafolio.png'
+import acn from './acn.png'
 
 import emotions from './papers/emotions.jpeg'
 
@@ -104,4 +105,5 @@ export {
   insta, 
   x,
   linkedin, 
+  acn,
 };
