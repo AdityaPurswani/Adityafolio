@@ -8,7 +8,7 @@ import { fadeIn, textVariant } from "../utils/motion"
 
 const ProjectCard = ({index, name , description, tags, image, source_code_link}) => {
   return(
-    <motion.div variants={fadeIn('up', 'spring', index*0.5, 0.75)}>
+    <motion.div>
       <Tilt options={{
         max:45,
         scale:1,
@@ -41,13 +41,13 @@ const ProjectCard = ({index, name , description, tags, image, source_code_link})
 
 const OtherProjectCard = ({index, name , description, projecttags, image, source_code_link}) => {
   return(
-    <motion.div variants={fadeIn('up', 'spring', index*0.5, 0.75)}>
+    <motion.div>
       <Tilt options={{
         max:45,
         scale:1,
         speed:450
       }}
-      className='bg-black-100 p-5 pt-1 rounded-2xl xs:w-[350px] w-full'>
+      className='bg-black-100 p-5 pt-1 rounded-2xl sm:w-auto w-full'>
         <div className="relative w-full h-auto">
           <p></p>
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -81,14 +81,14 @@ const Works = () => {
       </motion.div>
       <div className="w-full flex">
         <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+          // variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary2 text[17px] w-full leading-[30px]"
         >
           The following projects describe and showcase my skills through the real time projects as examples of my work. Each project is linked to code repositories and live demos where ever available. It reflects my ability to solve problems and flexibility to work and learn with new technologies and effectively serve the customers. Each projects display different technologies that I have worked on.
         </motion.p>
       </div>
 
-      <div className="mt-10 flex flex-wrap gap-10 xs:justify-center xs:items-center">
+      <div className="mt-10 flex flex-wrap gap-10 sm:justify-center sm:items-center">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} {...project} index={index}/>
         ))}
@@ -97,7 +97,7 @@ const Works = () => {
       <motion.div variants={textVariant()} className="mt-10">
       <p className={styles.sectionSubText}>Some more Projects</p>
       </motion.div>
-      <div className="mt-5 flex flex-wrap gap-10 xs:justify-center xs:items-center">
+      <div className="mt-5 flex flex-wrap gap-10 sm:justify-center sm:items-center">
         {otherprojects.map((otherproject, index) => (
           <OtherProjectCard key={`otherproject-${index}`} {...otherproject} index={index}/>
         ))}
