@@ -36,6 +36,10 @@ import tesla from "./company/tesla.png";
 import rubrik from "./company/rubrik.png";
 import primark from "./company/primark.png";
 
+import insta from './instagram.png'
+import x from "./X.png"
+import linkedin from './linkedin.png'
+
 import uon from "./colleges/uon.png";
 import nhce from "./colleges/nhce.png";
 
@@ -97,4 +101,7 @@ export {
   bc,
   paper,
   emotions,
+  insta, 
+  x,
+  linkedin, 
 };

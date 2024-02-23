@@ -6,6 +6,7 @@ import {
     javascript,
     typescript,
     gesture,
+    linkedin,
     html,
     css,
     reactjs,
@@ -40,6 +41,9 @@ import {
     adityafolio,
     uon,
     nft,
+    insta,
+    x,
+    github
   } from "../assets";
   
   export const navLinks = [
@@ -57,6 +61,28 @@ import {
     },
   ];
   
+  const socials = [
+    {
+      id: "insta",
+      logo: insta,
+      link: 'https://www.instagram.com/aditya._.purswani/',
+    },
+    {
+      id: "x",
+      logo: x,
+      link: 'https://twitter.com/purswani_adi',
+    },
+    {
+      id: "github",
+      logo: github,
+      link: 'https://github.com/AdityaPurswani',
+    },
+    {
+      id: "linkedin",
+      logo: linkedin,
+      link: 'https://www.linkedin.com/in/purswani-aditya/'
+    },
+  ];
   const services = [
     {
       title: "Machine Learning Enthusiast",
@@ -360,4 +386,4 @@ import {
       description: 'NFT Club - An attempt to generalize a concept that is pretty known to the public but needs to be understood clearly. NFT or Non-Fungible Tokens are digital assets that are traded on platforms made on the blockchain with the help of cryptocurrency. Our effort in this project is to create an NFT trading platform that is hassle-free for the normal public to understand and operate on.',
     },
   ]
-  export { services, technologies, experiences, testimonials, projects, educations, publications};
+  export { services, technologies, experiences, testimonials, projects, educations, publications, socials};
