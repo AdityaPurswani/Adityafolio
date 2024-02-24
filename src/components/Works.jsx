@@ -95,7 +95,7 @@ const Works = () => {
       </div>
 
       <motion.div>
-      <p className={styles.sectionSubText}>Some more Projects</p>
+      <p className={`${styles.sectionSubText} mt-5`}>Some more Projects</p>
       </motion.div>
       <div className="mt-10 flex flex-wrap gap-10 sm:justify-center sm:items-center">
         {otherprojects.map((otherproject, index) => (
