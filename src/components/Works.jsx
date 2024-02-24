@@ -47,7 +47,7 @@ const OtherProjectCard = ({index, name , description, projecttags, image, source
         scale:1,
         speed:450
       }}
-      className='bg-black-100 p-5 rounded-2xl sm:w-[350px] w-full'>
+      className='bg-black-100 p-5 pt-1 rounded-2xl sm:w-[350px] w-full'>
         <div className="relative w-full h-auto">
           <p></p>
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
