@@ -39,38 +39,38 @@ const ProjectCard = ({index, name , description, tags, image, source_code_link})
   )
 }
 
-const OtherProjectCard = ({index, name , description, projecttags, image, source_code_link}) => {
-  return(
-    <motion.div>
-      <Tilt options={{
-        max:45,
-        scale:1,
-        speed:450
-      }}
-      className='bg-black-100 p-5 pt-1 rounded-2xl sm:w-[350px] w-full'>
-        <div className="relative w-full h-auto">
-          <p></p>
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div onClick={() => window.open(source_code_link, "_blank")} className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
-              <img src={github} alt='github' className="w-1/2 h-1/2 object-contain"/>
-            </div>
-          </div>
-        </div>
-        <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
-        </div>
-        <div className="mt-4 flex flex-wrap gap-2">
-          {projecttags.map((tag) => (
-           <p key={tag.name} className={`text-[14px] ${tag.color}`}>
-            #{tag.name}
-           </p>
-          ))}
-        </div>
+// const OtherProjectCard = ({index, name , description, projecttags, image, source_code_link}) => {
+//   return(
+//     <motion.div>
+//       <Tilt options={{
+//         max:45,
+//         scale:1,
+//         speed:450
+//       }}
+//       className='bg-black-100 p-5 pt-1 rounded-2xl sm:w-[350px] w-full'>
+//         <div className="relative w-full h-auto">
+//           <p></p>
+//           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+//             <div onClick={() => window.open(source_code_link, "_blank")} className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+//               <img src={github} alt='github' className="w-1/2 h-1/2 object-contain"/>
+//             </div>
+//           </div>
+//         </div>
+//         <div className="mt-5">
+//           <h3 className="text-white font-bold text-[24px]">{name}</h3>
+//         </div>
+//         <div className="mt-4 flex flex-wrap gap-2">
+//           {projecttags.map((tag) => (
+//            <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+//             #{tag.name}
+//            </p>
+//           ))}
+//         </div>
         
-      </Tilt>
-    </motion.div>
-  )
-}
+//       </Tilt>
+//     </motion.div>
+//   )
+// }
 
 const Works = () => {
   return (
@@ -94,14 +94,14 @@ const Works = () => {
         ))}
       </div>
 
-      <motion.div>
+      {/* <motion.div>
       <p className={`${styles.sectionSubText} mt-5`}>Some more Projects</p>
       </motion.div>
       <div className="mt-10 flex flex-wrap gap-10 sm:justify-center sm:items-center">
         {otherprojects.map((otherproject, index) => (
           <OtherProjectCard key={`otherproject-${index}`} {...otherproject} index={index}/>
         ))}
-      </div>
+      </div> */}
     </>
   )
 }

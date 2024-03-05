@@ -274,7 +274,7 @@ import {
     {
       name: "NFT Club - An NFT Marketplace",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A decentralized web app that will help and encourage you to trade NFT, tell you about the trends of NFT, and will help you know more about blockchain and smart contracts",
       tags: [
         {
           name: "solidity",
@@ -285,7 +285,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "sanity",
           color: "pink-text-gradient",
         },
         {
