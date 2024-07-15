@@ -52,6 +52,8 @@ import bc from './bc.jpeg';
 import fuzzy from './fuzzy.png';
 import adityafolio from './adityafolio.png'
 import acn from './acn.png'
+import ad from './ad.png'
+import game from './game.jpg'
 
 import emotions from './papers/emotions.jpeg'
 
@@ -106,4 +108,6 @@ export {
   x,
   linkedin, 
   acn,
+  ad,
+  game
 };

@@ -1,4 +1,5 @@
 import {
+    game,
     mobile,
     backend,
     creator,
@@ -44,7 +45,8 @@ import {
     nft,
     insta,
     x,
-    github
+    github,
+    ad
   } from "../assets";
   
   export const navLinks = [
@@ -199,7 +201,7 @@ import {
       iconBg: "#383E56",
       date: "September 2023 - August 2025",
       points: [
-        "Grade: 74.33%",
+        "Grade: 74.5%",
         "Modules - Machine Learning, Handling Uncertainties using Fuzzy sets and systems, Advanced Computer Networks, Big Data, Mixed Reality, Research Methods",
       ],
     },
@@ -395,6 +397,56 @@ import {
       ],
       image: acn,
       source_code_link: "https://github.com/AdityaPurswani/COMP4032-Comparative-Study-of-Ad-Hoc-Network-Routing-Protocols-in-Landslide-Scenarios-Using-ONE",
+    },
+    {
+      name: "Prediction of Alziemers Dimentia using Big Data",
+      description:
+        "Using big data techniques to identify potential genetic biomarkers for Alzheimer’s disease by pre-processing data using one-hot encoding, selecting features using the Chi-Square test, developing models with PySpark’s MLlib and SkLearn architectures achieving an ROC score of 0.94",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "apache spark",
+          color: "green-text-gradient",
+        },
+        {
+          name: "databricks",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "machine learning",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: ad,
+      source_code_link: "https://github.com/AdityaPurswani/COMP4124-BigData",
+    },
+    {
+      name: "VR - Zombie Outbreak Survivial Quest",
+      description:
+        "A fun VR 💀 game prototype made around Zombie Appocalypse 🧟‍♂️ as a part of learning the technology. There is still a bit of work needed to be done to make this game even better. P.S. - Posted a gameplay video as a link and Code link will be published soon 😅",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "apache spark",
+          color: "green-text-gradient",
+        },
+        {
+          name: "databricks",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "machine learning",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: game,
+      source_code_link: "https://youtu.be/i22UeIVj1Xk",
     },
   ];
 
