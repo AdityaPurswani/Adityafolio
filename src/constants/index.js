@@ -429,21 +429,21 @@ import {
         "A fun VR 💀 game prototype made around Zombie Appocalypse 🧟‍♂️ as a part of learning the technology. There is still a bit of work needed to be done to make this game even better. P.S. - Posted a gameplay video as a link and Code link will be published soon 😅",
       tags: [
         {
-          name: "python",
+          name: "unity",
           color: "blue-text-gradient",
         },
         {
-          name: "apache spark",
+          name: "C-sharp",
           color: "green-text-gradient",
         },
         {
-          name: "databricks",
+          name: "Oculus depth API",
           color: "pink-text-gradient",
         },
         {
-          name: "machine learning",
-          color: "blue-text-gradient",
-        }
+          name: "Meta Quest 2",
+          color: "green-text-gradient",
+        },
       ],
       image: game,
       source_code_link: "https://youtu.be/i22UeIVj1Xk",
