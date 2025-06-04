@@ -54,6 +54,9 @@ import adityafolio from './adityafolio.png'
 import acn from './acn.png'
 import ad from './ad.png'
 import game from './game.jpg'
+import cognid from './cognid.png'
+import webfront from './webfront.png'
+import docspage from './docspage.png'
 
 import emotions from './papers/emotions.jpeg'
 
@@ -109,5 +112,8 @@ export {
   linkedin, 
   acn,
   ad,
-  game
+  game,
+  cognid,
+  webfront,
+  docspage
 };

@@ -1,5 +1,8 @@
 import {
     game,
+    webfront,
+    docspage,
+    cognid,
     mobile,
     backend,
     creator,
@@ -248,6 +251,97 @@ import {
   ];
   
   const projects = [
+    {
+      name: "An AI-Driven Pipeline for Diagnosis of Neuro-degenerative Disorders",
+      description:
+        "An AI-powered diagnostic pipeline that combines MRI scans, clinical biomarkers, cognitive scores, and radiology reports. It enables accurate classification of neurodegenerative disorders and supports early, interpretable clinical decision-making.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "opencv",
+          color: "green-text-gradient",
+        },
+        {
+          name: "3d unets",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "fsl",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nlp",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "transformers",
+          color: "green-text-gradient",
+        },
+        {
+          name: "llms",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: cognid,
+      source_code_link: "https://github.com/AdityaPurswani/CogNID-AI-Pipeline",
+    },
+    {
+      name: "CogNID-Assist - Clinical Decision Support Platform",
+      description:
+        "CogNID-Assist is a web-based clinical tool that enables clinicians to upload MRI scans and radiology reports for automated analysis using AI. It visualizes volumetric biomarkers, computes risk scores, and provides interpretable diagnostic support for neurodegenerative disorders by using the CogNID-AI pipeline.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "fastapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "digital-ocean spaces",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "fsl",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nlp",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "web3",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: webfront,
+      source_code_link: "https://github.com/AdityaPurswani/Dementia-Detection-App",
+    },
+    {
+      name: "Documentation for CogNID-AI pipeline",
+      description:
+        "The CogNID Pipeline Documentation Website provides detailed technical guidance, API references, and usage instructions for researchers and developers. It includes step-by-step walkthroughs for uploading MRI scans and medical reports, accessing model predictions, understanding feature outputs, and integrating the platform into clinical workflows.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "nifti-reader-js",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: docspage,
+      source_code_link: "https://docs-for-dementia-pipeline.vercel.app/",
+    },
     {
       name: "Cursor Controller",
       description:
