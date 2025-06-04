@@ -91,15 +91,15 @@ import {
   ];
   const services = [
     {
-      title: "Machine Learning Enthusiast",
+      title: "Developing AI-Powered Healthcare Platforms",
       icon: web,
     },
     {
-      title: "Web Development",
+      title: "Full-Stack Developer & Problem Solver",
       icon: mobile,
     },
     {
-      title: "Learning Deep Learning Techniques",
+      title: "Big Data & Machine Learning at Scale",
       icon: backend,
     },
     {
@@ -107,7 +107,7 @@ import {
       icon: creator,
     },
     {
-      title: "Learning AR/VR",
+      title: "Research-Driven & Industry-Tested",
       icon: mobile,
     },
   ];
@@ -206,6 +206,8 @@ import {
       points: [
         "Grade: 74.5%",
         "Modules - Machine Learning, Handling Uncertainties using Fuzzy sets and systems, Advanced Computer Networks, Big Data, Mixed Reality, Research Methods",
+        "As a part of my dissertation I developed an AI-driven diagnostic pipeline that integrates multimodal data—MRI scans, cognitive scores, clinical biomarkers, and radiology reports—to enhance diagnostic accuracy.",
+        "The system included two key components: (1) a volumetric MRI analysis pipeline using FSL tools to extract structural brain features, and (2) a Natural Language Processing (NLP) pipeline that analyses unstructured radiology reports to compute a Neurodegenerative Risk Factor (ND-RF) score using BERT.",
       ],
     },
     {
@@ -343,81 +345,6 @@ import {
       source_code_link: "https://docs-for-dementia-pipeline.vercel.app/",
     },
     {
-      name: "Cursor Controller",
-      description:
-        "An app created with Python, OpenCV, and Numpy in which a user can control his/her mouse using his/her fingers or hand gestures and can perform certain operations. OpenCV to create masks and capture the video input.",
-      tags: [
-        {
-          name: "python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "opencv",
-          color: "green-text-gradient",
-        },
-        {
-          name: "graham scan",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "pyautoGUI",
-          color: "blue-text-gradient",
-        }
-      ],
-      image: gesture,
-      source_code_link: "https://github.com/AdityaPurswani/Cursor-Controller",
-    },
-    {
-      name: "NFT Club - An NFT Marketplace",
-      description:
-        "A decentralized web app that will help and encourage you to trade NFT, tell you about the trends of NFT, and will help you know more about blockchain and smart contracts",
-      tags: [
-        {
-          name: "solidity",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "reactjs",
-          color: "green-text-gradient",
-        },
-        {
-          name: "sanity",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "metamask",
-          color: "green-text-gradient",
-        },
-        {
-          name: "smart contract",
-          color: "blue-text-gradient",
-        }
-      ],
-      image: nft,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Predicting Breast Cancer using Clinical, MRI Data",
-      description:
-        "Developed models to predict PCR and RFS levels in patients with breast cancer based on clinical and MRI data containing 117 features. Used data preprocessing techniques such as scaling along with SMOTE to balance the classes and feature selection to reduce dimensions.",
-      tags: [
-        {
-          name: "python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "ml algos",
-          color: "green-text-gradient",
-        },
-        {
-          name: "jupyter notebook",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: bc,
-      source_code_link: "https://github.com/AdityaPurswani/Predicting-Breast-Cancer-by-Integrating-Clinical-and-MRI-Data-via-Machine-Learning",
-    },
-    {
       name: "Fuzzy-System-to-Assist-Doctors",
       description:
         "Developed fuzzy inference models which takes patients age, body temperature and headache as constraints and helps doctors predict the severity of the case taking the uncertainity of medical devices and people into account.",
@@ -541,6 +468,82 @@ import {
       ],
       image: game,
       source_code_link: "https://youtu.be/i22UeIVj1Xk",
+    },
+
+    {
+      name: "Cursor Controller",
+      description:
+        "An app created with Python, OpenCV, and Numpy in which a user can control his/her mouse using his/her fingers or hand gestures and can perform certain operations. OpenCV to create masks and capture the video input.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "opencv",
+          color: "green-text-gradient",
+        },
+        {
+          name: "graham scan",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "pyautoGUI",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: gesture,
+      source_code_link: "https://github.com/AdityaPurswani/Cursor-Controller",
+    },
+    {
+      name: "NFT Club - An NFT Marketplace",
+      description:
+        "A decentralized web app that will help and encourage you to trade NFT, tell you about the trends of NFT, and will help you know more about blockchain and smart contracts",
+      tags: [
+        {
+          name: "solidity",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "reactjs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sanity",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "metamask",
+          color: "green-text-gradient",
+        },
+        {
+          name: "smart contract",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: nft,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Predicting Breast Cancer using Clinical, MRI Data",
+      description:
+        "Developed models to predict PCR and RFS levels in patients with breast cancer based on clinical and MRI data containing 117 features. Used data preprocessing techniques such as scaling along with SMOTE to balance the classes and feature selection to reduce dimensions.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ml algos",
+          color: "green-text-gradient",
+        },
+        {
+          name: "jupyter notebook",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: bc,
+      source_code_link: "https://github.com/AdityaPurswani/Predicting-Breast-Cancer-by-Integrating-Clinical-and-MRI-Data-via-Machine-Learning",
     },
   ];
 
