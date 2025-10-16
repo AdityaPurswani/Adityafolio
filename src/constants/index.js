@@ -49,7 +49,8 @@ import {
     insta,
     x,
     github,
-    ad
+    ad,
+    paper
   } from "../assets";
   
   export const navLinks = [
@@ -197,7 +198,31 @@ import {
         "Serving the customers at tills and helping them with any queries they might have",
       ],
     },
-    
+    {
+      title: "Co-Supervisor Google DeepMind Research Ready Program",
+      company_name: "University of Nottingham",
+      icon: uon,
+      iconBg: "#383E56",
+      date: "June 2025 - Sep 2025",
+      points: [
+        "Co-supervised an intern as part of the AI Research Ready Internship programme, a national initiative aimed at building pathways into AI research for underrepresented students in collaboration with Google DeepMind, The HG Foundation, and Royal Academy of Engineering.",
+        "Guided the design and development of AI models to extract insights from unstructured radiologist reports.",
+        "Supervised the creation of synthetic radiology reports to support clinician decision-making and data augmentation.",
+        "Collaborated across academic and industrial partners (Google DeepMind, HG Foundation, Royal Academy of Engineering).",
+        "Supported the intern’s technical growth, research methodology, and ethical AI development."
+      ],
+    },
+    {
+      title: "Research Assistant",
+      company_name: "University of Nottingham",
+      icon: uon,
+      iconBg: "#E6DEDD",
+      date: "Sep 2025 - Present",
+      points: [
+        "Working on the ARUK grant project in collaboration with the University of Nottingham and Nottingham University Hospitals NHS Trust.",
+        "Conducting literature reviews and contributing to research papers.",
+      ],
+    },
   ];
   
   const educations = [
@@ -564,6 +589,18 @@ import {
       paper_link: 'https://ieeexplore.ieee.org/document/10112704',
       description: 'NFT Club - An attempt to generalize a concept that is pretty known to the public but needs to be understood clearly. NFT or Non-Fungible Tokens are digital assets that are traded on platforms made on the blockchain with the help of cryptocurrency. Our effort in this project is to create an NFT trading platform that is hassle-free for the normal public to understand and operate on.',
     },
+    {
+      name: "AI-Driven Pipeline for Analysis and Classification of Neurodegenerative Diseases from Cognitive, Imaging, and Clinical Biomarkers from the CogNID Study",
+      image: cognid,
+      paper_link: 'https://nottingham-repository.worktribe.com/output/52159914',
+      description: "Developed CogNID-AI, a comprehensive, AI-driven pipeline to enhance the classification of young-onset neurodegenerative disorders. By integrating multimodal data including clinical history, cognitive assessments, CSF biomarkers, and volumetric features from MRI scans, this system achieved a diagnostic accuracy of 91.7% and an AUC-ROC of 0.982, outperforming models that rely on single data modalities.",
+    },
+    {
+      name: "A Data-driven Approach for Genetic Prediction of Alzheimer's Diseases when Polygenic RiskScores Fail to account AD's Genetic Complexity",
+      image: ad,
+      paper_link: 'https://nottingham-repository.worktribe.com/output/52159998',
+      description: "Collaborated with a team of 6 and developed a fully functional big data pipeline to predict early Alzheimer’s in young patients, achieving an accuracy of 94.4% on a dataset with 300,000 features. I performed feature engineering, reducing the number of features to 2981. Apart from that, I performed cross-validation to eliminate overfitting. We were among the top 3 projects for the module among 28 teams",
+    }
   ]
 
   const otherprojects = [
